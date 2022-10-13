@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" type="text/css" href="/Test1/styleSheet.css">
+    <title>Pet Shop</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div id="navLogoGroupRow">
+            <div id="logo">&#10084; Pet Shelter</div>
+            <div id="navGroup">
+                <div id="findAPet">Fin a Pet</div>
+                <div id="about">About</div>
+                <button id="donate" onclick="removeBtn(this)">Donate</button>
+            </div>
+        </div>
+        <div id="navSearch">
+            <div>
+                <div id="title">I am looking for a...</div>
+                <div id="petType">
+                    <img id="paw" src="/Test1/paw-light.png" alt="paw" style="width:20px;height:20px">
+                    <select name="animalSel" id="animalSel" onchange="catAlert()">
+                        <option value="Any Pet">Any Pet
+                        <option value="Dog">Dog
+                        <option value="Cat">Cat
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div>In or near...</div>
+                <div id="nearSelection">
+                    <img id="gps" src="/Test1/pin-light.png" alt="paw" style="width:20px;height:20px">
+                    <input name="near" id="near" type="text">
+                </div>
+            </div>
+            <button id="searchBtn">Find your new best friend</button>
+        </div>
+    </div>
+    <div id="content">
+        <div class="records"> 
+            <img id="paw" src="/Test1/bruce.jpg" alt="paw" style="width:80px;height:80px">
+            <div  class="middleCont">
+                <div class= "middleContTitle">Bruce</div>
+                <div class= "middleContBody">Peper is a slightly shy grey tobby, but she really loves showing her human affection</div>
+               
+            </div>
+            <div class="pettingBtnSide">
+                <div class petting="pettings"><span id="numOfPettings1">0</span> petting(s)</div>
+            <button class="petBtn"  onclick="pettingCounter1(this)">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="records">
+            <img id="paw" src="/Test1/pepper.jpg" alt="paw" style="width:80px;height:80px">
+            <div  class="middleCont">
+                <div class= "middleContTitle">Peper</div>
+                <div class= "middleContBody">Peper is a slightly shy grey tabby, but she really loves showing her human affection</div>
+               
+            </div>
+            <div class="pettingBtnSide">
+                <div class petting="pettings"><span id="numOfPettings2">0</span> petting(s)</div>
+            <button class="petBtn"  onclick="pettingCounter2(this)">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="records">
+            <img id="paw" src="/Test1/oscar.jpg" alt="paw" style="width:80px;height:80px">
+            <div  class="middleCont">
+                <div class= "middleContTitle">Oscar</div>
+                <div class= "middleContBody">Oscar is bright, energetic and friendly. He is looking for a good home.</div>
+               
+            </div>
+            <div class="pettingBtnSide">
+                <div class petting="pettings"><span id="numOfPettings3">0</span> petting(s)</div>
+            <button class="petBtn"  onclick="pettingCounter3(this)">Pet Oscar</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

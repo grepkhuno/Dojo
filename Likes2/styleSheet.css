@@ -1,0 +1,79 @@
+.container {
+  width: 860px;
+  background-color: white;
+  border-color: black;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.top-nav {
+  width: 860px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+li > .btn {
+  margin-left: 20px;
+  background-color: rgb(205, 205, 240);
+  border-radius: 4px;
+}
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a {
+  color: rgb(253, 251, 255);
+  text-decoration: none;
+}
+.changeLink{
+  color: rgb(51, 57, 228);
+  text-decoration: none;
+}
+.pageBody {
+  width: 860px;
+  display: flex;
+  justify-content: center;
+}
+.profileBox {
+  width: 150px;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+}
+.topContent {
+  display: flex;
+  justify-content: space-between;
+}
+.bottonContent{
+  margin-top: 10px;
+}
+.boxes {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  padding: 15px;
+  border: 2px;
+  background-color: rgb(236, 194, 167);
+}
+.subtitle{
+  width: 860px;
+  height: 20px;
+  display: flex;
+  justify-content:center;
+}
+
+

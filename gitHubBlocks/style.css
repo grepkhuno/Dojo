@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  background-color: rgb(180, 207, 224);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.subContainer1 {
+  width: 800px;
+  height: 240px;
+  background-color: rgb(122, 186, 225);
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.subContainer2 {
+  width: 800px;
+  height: 240px;
+  background-color: rgb(191, 147, 227);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+.subContainer3 {
+  width: 800px;
+  height: 240px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+
+}

@@ -1,0 +1,104 @@
+.nav {
+  width: 800px;
+  height: 120px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+#navLogoGroupRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navGroup {
+  padding-right: 30px;
+  width: 300px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#logo {
+  padding-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+#donate {
+  width: 70px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 254, 7);
+  border-style: groove;
+}
+
+#navSearch {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+#petType {
+  display: flex;
+  align-items: center;
+}
+#nearSelection {
+  display: flex;
+  align-items: center;
+}
+
+#searchBtn {
+  padding: 5px;
+  background-color: rgb(143, 57, 180);
+  color: white;
+}
+#content {
+  width: 800px;
+  background-color: rgba(253, 215, 3, 0.429);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.records {
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(169, 167, 164);
+  border-radius: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.middleCont>.middleContTitle{
+  font-size: 25px;
+  font-weight: bold;
+}
+.middleCont{
+  margin-left:5px ;
+
+}
+.pettingBtnSide{
+  width: 190px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+align-items: flex-end;
+}
+
+.petBtn{
+  width: 150px;
+ margin-top: 10px;
+font-size: 12px;
+ color: rgb(255, 255, 255);
+background-color: rgb(20, 220, 100);
+}
